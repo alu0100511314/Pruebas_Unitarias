@@ -8,4 +8,24 @@ class Point
     @x, @y = x, y
   end
 
+  def +(other)
+    Point.new(@x + other.x, @y + other.y)
+  end
+
+  def -(other)
+    Point.new(@x - other.x, @y - other.y)
+  end
+
+  def *(number)
+    Point.new(@x * number, @y * number)
+  end
+
+  def -@
+    Point.new(@x * -1, @y * -1)
+  end
+
+  def ==(other)
+    (@x == other.x) && (@y == other.y)
+  end
+
 end
