@@ -15,8 +15,8 @@ Ejemplo de diseño de pruebas unitarias
 unitarias y, posteriormente, diseñar nuestro código. Se puede consultar
 la documentación de cada fichero en el siguiente listado:
 
-  * [a relative link](doc/Point.md)
-  * [a relative link](doc/tc_Point.md)
+  * [Librería Point](doc/Point.md)
+  * [Pruebas unitarias de Point](doc/tc_Point.md)
 
 ## Ver también
   
