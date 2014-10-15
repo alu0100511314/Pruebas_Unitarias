@@ -29,4 +29,9 @@ class TestPoint < Test::Unit::TestCase
     assert_equal(p.x, q.x, 'Fallo en operador igual')
   end
 
+  def test_to_s
+    p = Point.new(2.1, 1.2)
+    assert_equal(p.to_s, "<x=2.1, y=1.2>", 'Fallo en el método to_s')
+  end
+
 end
