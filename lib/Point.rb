@@ -32,4 +32,8 @@ class Point
     "<x=#{@x}, y=#{@y}>"
   end
 
+  def tst
+    "Prueba rápida"
+  end
+
 end
